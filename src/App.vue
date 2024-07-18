@@ -55,8 +55,13 @@ export default {
         window.scrollTo({ top: elementPosition - 35, behavior: "smooth" });
       }
     });
+     this.scrollToTop();
+   
   },
   methods: {
+      scrollToTop() {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    },
     switchMode(mode) {
       if (this.config.use_cookies) {
         this.$cookie.set("nightMode", mode);
