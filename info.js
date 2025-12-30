@@ -43,7 +43,7 @@ let info = {
       date: "Augest, 2023 - present",
       position: "Full Stack Developer",
       description:
-        "worked as Backend developer for Microservice Applications,Ecommerce,Survaillance systems(Parking),Hospital HIS systems.",
+        "Backend Engineer for Microservice Applications, Ecommerce, Survaillance systems(Parking),Hospital HIS systems.",
       skills: ["Springboot", "Vuejs", "NGINX", "Microservice", "RabitMq", "k6"],
     },
     {
